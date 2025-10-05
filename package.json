@@ -1,0 +1,27 @@
+{
+  "name": "user-management-azure-functions",
+  "version": "1.0.0",
+  "description": "User Management System Backend using Azure Functions and MySQL",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "azure-functions",
+    "serverless",
+    "user-management",
+    "mysql",
+    "blob-storage"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/functions": "^4.5.0",
+    "@azure/storage-blob": "^12.17.0",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "@azure/functions-core-tools": "^4.0.5"
+  }
+}
